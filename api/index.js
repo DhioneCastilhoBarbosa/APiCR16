@@ -6,8 +6,8 @@ const {crc16} = require('easy-crc');
 
 server.use(express.json());
 server.use(cors());
-const port = 3002;
-server.listen(process.env.PORT || port, () => {
+const port = 4000;
+server.listen(port, () => {
     console.log(`API Up`);
 
 })
